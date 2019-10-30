@@ -74,8 +74,39 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  font-size: 14px; 
 
+}
+/*About us Page*/
+.container-about {
+  text-align: Center;
+  font: Arial;
+  background-color: rgba(206, 95, 21, 0.356);
+}
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px;
+  /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+/*about end*/
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -137,7 +168,7 @@ a {
   text-decoration: none;
   background-color: transparent; }
   a:hover {
-    color: #0056b3;
+    color: #0056b3
     text-decoration: underline; }
 
 a:not([href]):not([tabindex]) {
