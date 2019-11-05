@@ -92,12 +92,19 @@ p {
   height: 300px;
   /* Should be removed. Only for demonstration */
 }
-
+.auto{
+  size: auto;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+blockquote{
+  font-style: italic;
+  opacity: .9;
+  font-weight: bold;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
