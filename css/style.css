@@ -55,7 +55,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #418bd4;
   text-align: left;
   background-color: #fff; }
 
@@ -85,13 +85,8 @@ p {
   background-color: rgba(206, 95, 21, 0.356);
 }
 /* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 25%;
-  padding: 10px;
-  height: 300px;
-  /* Should be removed. Only for demonstration */
-}
+
+
 .auto{
   size: auto;
 }
@@ -103,7 +98,7 @@ p {
 }
 blockquote{
   font-style: italic;
-  opacity: .9;
+  opacity: .7;
   font-weight: bold;
 }
 
@@ -9827,3 +9822,6 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+
+    
