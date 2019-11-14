@@ -28,129 +28,122 @@
   <link rel="stylesheet" href="css/icomoon.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
-<section class="home-slider owl-carousel js-fullheight">
-  <div class="slider-item js-fullheight" style="background-image: url(images/barb1.jpg);">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
 
-        <div class="col-md-12 col-sm-12 text-center ftco-animate">
-
-
-
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-
-
-
-</section>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Baker Bros Barbeque</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="oi oi-menu"></span> Contact
-      </button>
+  <section class="home-slider owl-carousel js-fullheight">
+    <div class="slider-item js-fullheight" style="background-image: url(images/barb1.jpg);">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row slider-text js-fullheight justify-content-center align-items-center"
+          data-scrollax-parent="true">
 
-      <div class="collapse navbar-collapse" id="ftco-nav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
-          <li class="nav-item"><a href="VisualTour.html" class="nav-link">Visual Tour</a></li>
-          <li class="nav-item"><a href="Reviews.html" class="nav-link">Reviews</a></li>
-          <li class="nav-item active"><a href="contact.html" class="nav-link">Contact</a></li>
+          <div class="col-md-12 col-sm-12 text-center ftco-animate">
 
-        </ul>
+            <Div>
+              <h1 class="subheading">Contact Us</h1>
+              <p>
+              </p>
+            </Div>
+
+          </div>
+
+        </div>
       </div>
     </div>
-  </nav>
-  <hr>
+  </section>
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Baker Bros Barbeque</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+          aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> Contact
+        </button>
+
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
+            <li class="nav-item"><a href="VisualTour.html" class="nav-link">Visual Tour</a></li>
+            <li class="nav-item"><a href="Reviews.html" class="nav-link">Reviews</a></li>
+            <li class="nav-item active"><a href="contact.html" class="nav-link">Contact</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <hr>
+    <div class="container1">
+      <form action="action_page.php">
+
+        <label class="subheading" for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+        <label class="subheading" for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label class="subheading" for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+
+        <label class="subheading" for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+
+      </form>
+    </div>
   </div>
-  <!---Nav End-->
+<style>
+  /* Style inputs with type="text", select elements and textareas */
+  input[type=text],
+  select,
+  textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+      /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
 
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!---Footer ideas
-Monday-Thursday:11am-9pm
-Friday-Saturday:11am-10pm
-Sunday:Closed
-Phone#:731-240-1081
-Address:215 W. Main St.-->
-
-
-  <!-- loader -->
-  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
-      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
-        stroke="#F96D00" /></svg></div>
-
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery-migrate-3.0.1.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.easing.1.3.js"></script>
-  <script src="js/jquery.waypoints.min.js"></script>
-  <script src="js/jquery.stellar.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/jquery.animateNumber.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
-  <script src="js/scrollax.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false">
-  </script>
-  <script src="js/google-map.js"></script>
-  <script src="js/main.js"></script>
-
-</body>
-
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
+  /* Add a background color and some padding around the form */
+  .container1 {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+</style>
 
 
 
