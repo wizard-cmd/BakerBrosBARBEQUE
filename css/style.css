@@ -205,13 +205,13 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #0062cc;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #0056b3 text-decoration;
+  color:inherit text-decoration;
   underline:
 }
 
@@ -11766,13 +11766,13 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #c8a97e;
+  color:  rgba(206, 95, 21, 0.356)e;
 }
 
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #c8a97e;
+  color:  rgba(206, 95, 21, 0.356)e;
   outline: none !important;
 }
 
@@ -11933,7 +11933,7 @@ h5,
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item.cta>a {
-  background: #c8a97e;
+  background:  rgba(206, 95, 21, 0.356)e;
   color: #fff;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -11951,12 +11951,12 @@ h5,
 @media (max-width: 991.98px) {
   .ftco-navbar-light .navbar-nav>.nav-item.cta>a {
     color: #fff;
-    background: #c8a97e;
+    background:  rgba(206, 95, 21, 0.356)e;
   }
 }
 
 .ftco-navbar-light .navbar-nav>.nav-item.active>a {
-  color: #c8a97e;
+  color:  rgba(206, 95, 21, 0.356)e;
 }
 
 @media (max-width: 991.98px) {
@@ -12241,7 +12241,7 @@ h5,
 
 .owl-carousel.home-slider .slider-item .slider-text .subheading {
   font-size: 80px;
-  color: rgb(202, 119, 51);
+  color:#eb720f;
   font-weight: normal;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-bottom: 0;
@@ -13377,8 +13377,7 @@ textarea.form-control {
   font-size: 100px;
   display: block;
   margin-bottom: 0;
-  color: rgba(0, 0, 0, 0.2);
-  color: #c8a97e;
+  color: #eb720f;
   line-height: 1;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-top: 0;
@@ -13405,7 +13404,7 @@ textarea.form-control {
 }
 
 .heading-section.heading-section-white .subheading {
-  color: rgba(255, 255, 255, 0.7);
+  color: #eb720f;
 }
 
 .heading-section.heading-section-white h2 {

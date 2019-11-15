@@ -78,21 +78,14 @@
     <div class="container1">
       <form action="action_page.php">
 
-        <label class="subheading" for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label class="subheading" for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name...">
 
-        <label class="subheading" for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-        <label class="subheading" for="country">Country</label>
-        <select id="country" name="country">
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-        </select>
+        <label class="subheading" for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="Email...">
 
         <label class="subheading" for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <textarea id="subject" name="subject" placeholder="Suggestion/Question" style="height:200px"></textarea>
 
         <input type="submit" value="Submit">
 
@@ -119,12 +112,12 @@
     margin-bottom: 16px;
     /* Bottom margin */
     resize: vertical
-      /* Allow the user to vertically resize the textarea (not horizontally) */
+    /* Allow the user to vertically resize the textarea (not horizontally) */
   }
 
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #eb720f;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -134,7 +127,7 @@
 
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #D36206;
   }
 
   /* Add a background color and some padding around the form */
