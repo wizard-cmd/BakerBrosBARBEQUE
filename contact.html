@@ -30,68 +30,74 @@
 </head>
 
 
-<body>
-  <section class="home-slider owl-carousel js-fullheight">
-    <div class="slider-item js-fullheight" style="background-image: url(images/barb1.jpg);">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row slider-text js-fullheight justify-content-center align-items-center"
-          data-scrollax-parent="true">
 
-          <div class="col-md-12 col-sm-12 text-center ftco-animate">
+<section class="home-slider owl-carousel js-fullheight">
+  <div class="slider-item js-fullheight" style="background-image: url(images/barb1.jpg);">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
 
-            <Div>
-              <h1 class="subheading">Contact Us</h1>
-              <p>
-              </p>
-            </Div>
+        <div class="col-md-12 col-sm-12 text-center ftco-animate">
 
-          </div>
+          <Div>
+            <h1 class="subheading">Contact Us</h1>
+            <p>
+            </p>
+          </Div>
 
         </div>
+
       </div>
-    </div>
-  </section>
-  <div>
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">Baker Bros Barbeque</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-          aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="oi oi-menu"></span> Contact
-        </button>
-
-        <div class="collapse navbar-collapse" id="ftco-nav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
-            <li class="nav-item"><a href="VisualTour.html" class="nav-link">Visual Tour</a></li>
-            <li class="nav-item"><a href="Reviews.html" class="nav-link">Reviews</a></li>
-            <li class="nav-item active"><a href="contact.html" class="nav-link">Contact</a></li>
-
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <hr>
-    <div class="container1">
-      <form action="action_page.php">
-
-        <label class="subheading" for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="Your name...">
-
-        <label class="subheading" for="email">Email</label>
-        <input type="text" id="email" name="email" placeholder="Email...">
-
-        <label class="subheading" for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Suggestion/Question" style="height:200px"></textarea>
-
-        <input type="submit" value="Submit">
-
-      </form>
     </div>
   </div>
+</section>
+<div >
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Baker Bros Barbeque</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Contact
+      </button>
+
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
+          <li class="nav-item"><a href="VisualTour.html" class="nav-link">Visual Tour</a></li>
+          <li class="nav-item"><a href="Reviews.html" class="nav-link">Reviews</a></li>
+          <li class="nav-item active"><a href="contact.html" class="nav-link">Contact</a></li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <hr>
+  <div class="container1" class="hide"> 
+    <form action="action_page.php">
+
+      <label class="subheading" for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your name...">
+
+      <label class="subheading" for="email">Email</label>
+      <input type="text" id="email" name="email" placeholder="Email...">
+
+      <label class="subheading" for="Questions">Matter of Discussion</label>
+      <select name="Questions">
+        <option value="Food"> Food or drinks </option>
+        <option value="Staff"> Staff </option>
+        <option value="Order"> Order status</option>
+        <option value="Etc">Not listed</option>
+      </select>
+      <label class="subheading" for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Suggestion/Question" style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+
+    </form>
+  </div>
+</div>
 <style>
   /* Style inputs with type="text", select elements and textareas */
   input[type=text],
@@ -112,12 +118,12 @@
     margin-bottom: 16px;
     /* Bottom margin */
     resize: vertical
-    /* Allow the user to vertically resize the textarea (not horizontally) */
+      /* Allow the user to vertically resize the textarea (not horizontally) */
   }
 
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-color: #eb720f;
+    background-color: #bb641d;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -136,119 +142,10 @@
     background-color: #f2f2f2;
     padding: 20px;
   }
+  hide{
+  visibility: hidden;
+  }
 </style>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
