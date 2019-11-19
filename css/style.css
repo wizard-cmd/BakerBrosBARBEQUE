@@ -114,7 +114,9 @@ p {
 .auto {
   size: auto;
 }
-
+.class{
+  width:25;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -131,7 +133,7 @@ blockquote {
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
-    width: 100%;
+    width: 25%;
   }
 }
 
@@ -496,7 +498,7 @@ hr {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-small,
+
 .small {
   font-size: 80%;
   font-weight: 400;
@@ -664,6 +666,10 @@ pre code {
   margin-right: -15px;
   margin-left: -15px;
 }
+.smallic{
+  max-height:500px;
+  float:right
+}
 
 .no-gutters {
   margin-right: 0;
@@ -675,7 +681,10 @@ pre code {
   padding-right: 0;
   padding-left: 0;
 }
-
+.med{
+  width:35%;
+  float: left;
+}
 .col-1,
 .col-2,
 .col-3,
@@ -4823,7 +4832,7 @@ input[type="button"].btn-block {
 }
 
 .nav-pills .nav-link {
-  border-radius: 0.25rem;
+  border-radius: 3.35rem;
 }
 
 .nav-pills .nav-link.active,

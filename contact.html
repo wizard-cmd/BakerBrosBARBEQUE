@@ -74,30 +74,41 @@
     </div>
   </nav>
   <hr>
-  <div class="container1" class="hide"> 
-    <form action="action_page.php">
+  <div >
+    <div class="ftco-animate">
+      <div class="row">
+        <div class="column">
+          <img src="images/Hay.jpg" class="smallic">
+        </div>
+        <div class="container1" class="right">
+          <form action="action_page.php">
 
-      <label class="subheading" for="name">Name</label>
-      <input type="text" id="name" name="name" placeholder="Your name...">
+            <label class="subheading" for="name"><h2>Name</h2></label>
+            <input type="text" id="name" name="name" placeholder="Your name...">
 
-      <label class="subheading" for="email">Email</label>
-      <input type="text" id="email" name="email" placeholder="Email...">
+            <label class="subheading" for="email"><h1>Email</h1></label>
+            <input type="text" id="email" name="email" placeholder="Email...">
 
-      <label class="subheading" for="Questions">Matter of Discussion</label>
-      <select name="Questions">
-        <option value="Food"> Food or drinks </option>
-        <option value="Staff"> Staff </option>
-        <option value="Order"> Order status</option>
-        <option value="Etc">Not listed</option>
-      </select>
-      <label class="subheading" for="subject">Subject</label>
-      <textarea id="subject" name="subject" placeholder="Suggestion/Question" style="height:200px"></textarea>
+            <label class="subheading" for="Questions"><h1>Matter of Discussion</h1></label>
+            <select name="Questions">
+              <option value="Food"> Food or drinks </option>
+              <option value="Staff"> Staff </option>
+              <option value="Order"> Order status</option>
+              <option value="Etc">Not listed</option>
+            </select>
+            <label class="subheading" for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Suggestion/Question" style="height:200px"></textarea>
 
-      <input type="submit" value="Submit">
+            <input type="submit" value="Submit">
 
-    </form>
-  </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  
 </div>
+</div>
+
 <style>
   /* Style inputs with type="text", select elements and textareas */
   input[type=text],
@@ -139,12 +150,12 @@
   /* Add a background color and some padding around the form */
   .container1 {
     border-radius: 5px;
-    background-color: #f2f2f2;
+    
     padding: 20px;
+    float: right;
+    width: 73%;
   }
-  hide{
-  visibility: hidden;
-  }
+  
 </style>
 
 
