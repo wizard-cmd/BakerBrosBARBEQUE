@@ -32,7 +32,8 @@
 
 
 <section class="home-slider owl-carousel js-fullheight">
-  <div class="slider-item js-fullheight" style="background-image: url(images/barb1.jpg);">
+  <!---DREW wanted this image here-->
+  <div class="slider-item js-fullheight" style="background-image: url(images/grill.png);">
     <div class="overlay"></div>
     <div class="container">
       <div class="row slider-text js-fullheight justify-content-center align-items-center" data-scrollax-parent="true">
@@ -41,7 +42,9 @@
 
           <Div>
             <h1 class="subheading">Contact Us</h1>
-            <p>
+            <p class="big">
+              Address: 215 W Main St, Jackson TN 38301
+
             </p>
           </Div>
 
@@ -51,7 +54,7 @@
     </div>
   </div>
 </section>
-<div >
+<div>
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
       <a class="navbar-brand" href="index.html">Baker Bros Barbeque</a>
@@ -74,7 +77,7 @@
     </div>
   </nav>
   <hr>
-  <div >
+  <div id="demo">
     <div class="ftco-animate">
       <div class="row">
         <div class="column">
@@ -83,13 +86,19 @@
         <div class="container1" class="right">
           <form action="action_page.php">
 
-            <label class="subheading" for="name"><h2>Name</h2></label>
+            <label class="subheading" for="name">
+              <h2>Name</h2>
+            </label>
             <input type="text" id="name" name="name" placeholder="Your name...">
 
-            <label class="subheading" for="email"><h1>Email</h1></label>
+            <label class="subheading" for="email">
+              <h1>Email</h1>
+            </label>
             <input type="text" id="email" name="email" placeholder="Email...">
 
-            <label class="subheading" for="Questions"><h1>Matter of Discussion</h1></label>
+            <label class="subheading" for="Questions">
+              <h1>Matter of Discussion</h1>
+            </label>
             <select name="Questions">
               <option value="Food"> Food or drinks </option>
               <option value="Staff"> Staff </option>
@@ -99,14 +108,16 @@
             <label class="subheading" for="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="Suggestion/Question" style="height:200px"></textarea>
 
-            <input type="submit" value="Submit">
+            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple
+              collapsible</button>
+
 
           </form>
         </div>
       </div>
     </div>
-  
-</div>
+
+  </div>
 </div>
 
 <style>
@@ -132,30 +143,18 @@
       /* Allow the user to vertically resize the textarea (not horizontally) */
   }
 
-  /* Style the submit button with a specific background color etc */
-  input[type=submit] {
-    background-color: #bb641d;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
 
-  /* When moving the mouse over the submit button, add a darker green color */
-  input[type=submit]:hover {
-    background-color: #D36206;
-  }
+
+
 
   /* Add a background color and some padding around the form */
   .container1 {
     border-radius: 5px;
-    
+
     padding: 20px;
     float: right;
     width: 73%;
   }
-  
 </style>
 
 
