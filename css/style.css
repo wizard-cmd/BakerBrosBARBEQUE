@@ -34,6 +34,71 @@
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+/**
+ * Owl Carousel v2.2.1
+ * Copyright 2013-2017 David Deutsch
+ * Licensed under  ()
+ */
+.owl-theme .owl-dots,
+.owl-theme .owl-nav {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent
+}
+html{
+  
+}
+.owl-theme .owl-nav {
+  margin-top: 10px
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+  color: rgb(43, 22, 22);
+  font-size: 14px;
+  margin: 5px;
+  padding: 4px 7px;
+  background: #D6D6D6;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 3px;
+  position: absolute;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+  background: #869791;
+  color: #FFF;
+  text-decoration: none
+}
+
+.owl-theme .owl-nav .disabled {
+  opacity: .5;
+  cursor: default
+}
+
+.owl-theme .owl-nav.disabled+.owl-dots {
+  margin-top: 10px
+}
+
+.owl-theme .owl-dots .owl-dot {
+  display: inline-block;
+  zoom: 1
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 10px;
+  height: 10px;
+  margin: 5px 7px;
+  background: #D6D6D6;
+  display: block;
+  -webkit-backface-visibility: visible;
+  transition: opacity .2s ease;
+  border-radius: 30px
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: #869791
+}
+/**END OWL CAROUSEL CSS**/
 
 *,
 *::before,
@@ -43,10 +108,6 @@
 }
 
 html {
-  font-family: sans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 article,
@@ -70,7 +131,7 @@ body {
   line-height: 1.5;
   color: #418bd4;
   text-align: left;
-  background-color: #fff;
+  background-color:rgba(179, 109, 19, 0.589);
 }
 
 [tabindex="-1"]:focus {
@@ -136,13 +197,6 @@ p {
 
 }
 
-
-/*About us Page*/
-.container-about {
-  text-align: Center;
-  font: Arial;
-  background-color: rgba(206, 95, 21, 0.356);
-}
 
 /* Create three equal columns that floats next to each other */
 
@@ -795,6 +849,7 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  background-color: #FFF;
 }
 
 .col {
@@ -10890,7 +10945,7 @@ a.text-dark:focus {
 
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background: #fff;
+  background: rgba(228, 142, 45, 0.432);
   font-size: 17px;
   line-height: 2;
   font-weight: 400;
@@ -12989,7 +13044,7 @@ textarea.form-control {
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
-  background-color: #fff;
+  background-color:rgb(160, 99, 49);
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -12999,77 +13054,3 @@ textarea.form-control {
   -webkit-transition: opacity .4s ease-out, visibility 0s linear 0s;
   -o-transition: opacity .4s ease-out, visibility 0s linear 0s;
   transition: opacity .4s ease-out, visibility 0s linear 0s;
-  visibility: visible;
-  opacity: 1;
-}
-
-#ftco-loader .circular {
-  -webkit-animation: loader-rotate 2s linear infinite;
-  animation: loader-rotate 2s linear infinite;
-  position: absolute;
-  left: calc(50% - 24px);
-  top: calc(50% - 24px);
-  display: block;
-  -webkit-transform: rotate(0deg);
-  -ms-transform: rotate(0deg);
-  transform: rotate(0deg);
-}
-
-#ftco-loader .path {
-  stroke-dasharray: 1, 200;
-  stroke-dashoffset: 0;
-  -webkit-animation: loader-dash 1.5s ease-in-out infinite;
-  animation: loader-dash 1.5s ease-in-out infinite;
-  stroke-linecap: round;
-}
-
-@-webkit-keyframes loader-rotate {
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes loader-rotate {
-  100% {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg);
-  }
-}
-
-@-webkit-keyframes loader-dash {
-  0% {
-    stroke-dasharray: 1, 200;
-    stroke-dashoffset: 0;
-  }
-
-  50% {
-    stroke-dasharray: 89, 200;
-    stroke-dashoffset: -35px;
-  }
-
-  100% {
-    stroke-dasharray: 89, 200;
-    stroke-dashoffset: -136px;
-  }
-}
-
-@keyframes loader-dash {
-  0% {
-    stroke-dasharray: 1, 200;
-    stroke-dashoffset: 0;
-  }
-
-  50% {
-    stroke-dasharray: 89, 200;
-    stroke-dashoffset: -35px;
-  }
-
-  100% {
-    stroke-dasharray: 89, 200;
-    stroke-dashoffset: -136px;
-  }
-}
-
-
-/*dark mode*/
