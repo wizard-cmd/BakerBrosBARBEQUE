@@ -158,8 +158,8 @@ h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 14px;
-
+  font-size: 25;
+  font-weight: bold;
 }
 
 /*Menu Page Button*/
@@ -849,7 +849,7 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  background-color: #FFF;
+  
 }
 
 .col {
