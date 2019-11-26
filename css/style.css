@@ -34,6 +34,8 @@
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+
+
 /**
  * Owl Carousel v2.2.1
  * Copyright 2013-2017 David Deutsch
@@ -193,7 +195,7 @@ p {
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: #a6520d;
 
 }
 
