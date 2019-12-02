@@ -54,7 +54,7 @@ html{
 }
 
 .owl-theme .owl-nav [class*=owl-] {
-  color: rgb(43, 22, 22);
+  color: rgb(165, 62, 62);
   font-size: 14px;
   margin: 5px;
   padding: 4px 7px;
@@ -199,7 +199,10 @@ p {
 
 }
 
-
+/* about */
+.page-footer {
+  background: rgb(173, 84, 84);
+}
 /* Create three equal columns that floats next to each other */
 
 
