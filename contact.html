@@ -91,11 +91,11 @@
   <div id="demo" class="Collapse">
     <div class="ftco-animate">
       <div class="row">
-        <div class="column">
+        <div id="map" class="column">
           <img src="images/Hay.jpg" class="smallic">
         </div>
         <div class="container1" class="right">
-          <form action="action_page.php">
+          <form action="https://formspree.io/xkngzqrv" method="POST">
 
             <label class="subheading" for="name">
               <h2>Name</h2>
@@ -119,8 +119,8 @@
             <label class="subheading" for="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="Suggestion/Question" style="height:200px"></textarea>
 
-            <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo">Simple
-              collapsible</button>
+            <button type="submit" class="btn btn-info" >
+              Submit</button>
 
 
           </form>
@@ -197,8 +197,24 @@
 </script>
 <script src="js/google-map.js"></script>
 <script src="js/main.js"></script>
+<script>
+  function initMap() {
+    var location = {lat:35.614947 , lng:-88.821117};
+    var map = new google.maps.Map(document.getElementById("map"),{
+      zoom: 4,
+      center: location
 
+    }); 
+    var marker = new google.maps.Marker({
+      position: location, 
+      map: map
+    });
+  }
+  
+</script>
+<script async defer src="https://www.google.com/maps/embed/v1/MODE?key=AIzaSyB56GPtouVHAiNfz-JgbSrReASEdPYq8cA&parametersp">
 
+</script>
 </body>
 
 </html>
