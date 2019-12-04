@@ -39,19 +39,11 @@
   padding: 0%;
 }
 
-/**
- * Owl Carousel v2.2.1
- * Copyright 2013-2017 David Deutsch
- * Licensed under  ()
- */
-.owl-theme .owl-dots,
-.owl-theme .owl-nav {
-  text-align: center;
-  -webkit-tap-highlight-color: transparent
-}
-html{
 
+.LeftyImg{
+background-image: url(images/DREW1.jpg); 
 }
+
 .owl-theme .owl-nav {
   margin-top: 10px
 }
@@ -99,6 +91,7 @@ html{
   background: #D6D6D6;
   display: block;
   -webkit-backface-visibility: visible;
+  backface-visibility: visable;
   transition: opacity .2s ease;
   border-radius: 30px
 }
@@ -116,8 +109,6 @@ html{
   box-sizing: border-box;
 }
 
-html {
-}
 
 article,
 aside,
@@ -316,7 +307,7 @@ a {
 
 a:hover {
   color: inherit text-decoration;
-  underline:
+  
 }
 
 a:not([href]):not([tabindex]) {
@@ -12819,6 +12810,7 @@ textarea.form-control {
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+  backface-visibility: hidden;
 }
 
 .mfp-with-zoom.mfp-ready .mfp-container {
@@ -13079,3 +13071,4 @@ textarea.form-control {
   -webkit-transition: opacity .4s ease-out, visibility 0s linear 0s;
   -o-transition: opacity .4s ease-out, visibility 0s linear 0s;
   transition: opacity .4s ease-out, visibility 0s linear 0s;
+}
