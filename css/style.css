@@ -1,7 +1,5 @@
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
- * Copyright 2011-2019 The Bootstrap Authors
- * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
@@ -53,7 +51,7 @@ background-image: url(images/DREW1.jpg);
   width: auto;
 }
 .owl-theme .owl-nav [class*=owl-] {
-  color: rgb(165, 62, 62);
+  color: rgb(189, 78, 78);
   font-size: 14px;
   margin: 5px;
   padding: 4px 7px;
@@ -178,7 +176,7 @@ p {
 
   outline: none;
 
-  background-color: #eb720f;
+  background-color: #a7744a;
 
   color: white;
 
@@ -6965,9 +6963,7 @@ button.bg-dark:focus {
   display: -ms-inline-flexbox !important;
   display: inline-flex !important;
 }
-#avoid {
-  visibility: hidden;
-}
+
 @media (min-width: 576px) {
   .d-sm-none {
     display: none !important;
@@ -7137,6 +7133,8 @@ button.bg-dark:focus {
 }
 #avoid {
   pointer-events: none;
+  color: rgba(228, 142, 45, 0.432);
+
 }
 @media print {
   .d-print-none {
@@ -10958,10 +10956,10 @@ a.text-dark:focus {
     border-color: #dee2e6;
   }
 }
-
+/* Background Main */
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background: rgba(228, 142, 45, 0.432);
+  background: rgba(235, 142, 36, 0.582);
   font-size: 17px;
   line-height: 2;
   font-weight: 400;
