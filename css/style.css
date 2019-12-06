@@ -36,8 +36,18 @@
   margin: 0%;
   padding: 0%;
 }
-
-
+a:link{
+  color: rgba(236, 135, 53, 0.993)
+}
+a:hover{
+  color: rgba(236, 135, 53, 0.993)
+}
+a:visited{
+  color : rgba(236, 135, 53, 0.993)
+}
+a:hover{
+  color: rgb(161, 93, 37);
+}
 .LeftyImg{
 background-image: url(images/DREW1.jpg); 
 }
@@ -47,8 +57,8 @@ background-image: url(images/DREW1.jpg);
 }
 /* Google maps*/
 #map{
-  height: auto;
-  width: auto;
+  height: 50%;
+  width: 50%;
 }
 .owl-theme .owl-nav [class*=owl-] {
   color: rgb(189, 78, 78);
@@ -194,13 +204,17 @@ p {
   background-color: #a6520d;
 
 }
-
+footer  p{
+  color: black
+}
 /* about */
 .page-footer {
-  background: rgb(173, 84, 84);
+  background: rgb(134, 77, 10);
 }
 /* Create three equal columns that floats next to each other */
-
+footer: p{
+  color: black;
+}
 
 .auto {
   size: auto;
