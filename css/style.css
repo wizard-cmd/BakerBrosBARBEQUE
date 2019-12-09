@@ -773,11 +773,23 @@ pre code {
   margin-right: -15px;
   margin-left: -15px;
 }
+.tinic{
+  max-height: 350px;
+}
 .smallic{
-  max-height:500px;
+  max-height:550px;
+  
+}
+.smallic-right {
+  max-height: 500px;
   float:right
 }
 
+.smallic-left {
+  max-height: 500px;
+  float:left;
+  max-width: 350px;
+}
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
