@@ -775,6 +775,7 @@ pre code {
 }
 .tinic{
   max-height: 350px;
+  float:left
 }
 .smallic{
   max-height:550px;
