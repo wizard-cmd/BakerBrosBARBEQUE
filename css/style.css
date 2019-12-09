@@ -32,10 +32,7 @@
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
-*{
-  margin: 0%;
-  padding: 0%;
-}
+
 a:link{
   color: rgba(236, 135, 53, 0.993)
 }
@@ -51,7 +48,12 @@ a:hover{
 .LeftyImg{
 background-image: url(images/DREW1.jpg); 
 }
-
+.Mar{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
 .owl-theme .owl-nav {
   margin-top: 10px
 }
