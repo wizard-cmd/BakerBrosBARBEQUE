@@ -53,13 +53,17 @@ background-image: url(images/DREW1.jpg);
   margin-bottom: 30px;
   margin-left: 40px;
   margin-right: 40px;
+  border: 10px;
+  margin-bottom: 250px;
+  border-style: inset;
+  border-color: #eb720f;
 }
 .owl-theme .owl-nav {
   margin-top: 10px
 }
 /* Google maps*/
 #map{
-  height: 50%;
+  height: auto;
   width: 50%;
 }
 .owl-theme .owl-nav [class*=owl-] {
@@ -359,7 +363,10 @@ figure {
 
 img {
   vertical-align: middle;
-  border-style: none;
+  border: 15px;
+  margin-bottom: 250px;
+  border-style: inset;
+  border-color: #eb720f;
 }
 
 svg {
@@ -774,8 +781,13 @@ pre code {
   margin-left: -15px;
 }
 .tinic{
-  max-height: 350px;
-  float:left
+  max-height: 400px;
+  float:middle;
+  border: 25px;
+  margin-bottom: 250px;
+  border-style: inset  ;
+  border-color: #eb720f;
+  
 }
 .smallic{
   max-height:550px;
@@ -12560,15 +12572,8 @@ textarea.form-control {
   color: #c8a97e;
 }
 
-#map {
-  width: 100%;
-}
 
-@media (max-width: 767.98px) {
-  #map {
-    height: 300px;
-  }
-}
+
 
 @-webkit-keyframes pulse {
   0% {
